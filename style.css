@@ -72,3 +72,46 @@ h3 {
 .main2_item img {
   height: 500px;
 }
+
+@media screen and (max-width: 1260px) {
+  .main_block {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main_block {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav {
+    display: none;
+  }
+  header .container {
+    text-align: center;
+  }
+  .download_block h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .main2_item img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .img_block img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .adapt {
+    width: 100%;
+  }
+}
